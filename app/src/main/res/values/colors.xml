@@ -9,6 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="btn_sign_up">#072EA5</color>
     <color name="btn_sign_in">#707070</color>
-    <color name="fbk_color">#2022CD</color>
+    <color name="fbk_color">#4267B2</color>
+    <color name="twt_color">#1DA1F2</color>
+    <color name="backgroungMenu">#73A3C1</color>
 
 </resources>

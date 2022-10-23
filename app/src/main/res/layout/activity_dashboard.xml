@@ -10,17 +10,31 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/menuflotante"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            app:menu_backgroundColor="@color/backgroungMenu"
             app:menu_fab_label="Redes Sociales">
 
             <com.github.clans.fab.FloatingActionButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:fab_colorNormal="@color/fbk_color"
+                android:onClick="fbkIntent"
                 android:src="@drawable/ic_fbkff"
+                app:fab_colorNormal="@color/fbk_color"
                 app:fab_label="Facebook">
+
+            </com.github.clans.fab.FloatingActionButton>
+
+            <com.github.clans.fab.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="twtIntent"
+                android:src="@drawable/ic_twtff"
+                app:fab_colorNormal="@color/twt_color"
+                app:fab_label="Twitter">
 
             </com.github.clans.fab.FloatingActionButton>
 
