@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class SignInActivity extends AppCompatActivity {
 
     EditText editTextUserNameEmail;
@@ -22,7 +20,7 @@ public class SignInActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
 
-        editTextUserNameEmail = (EditText) findViewById(R.id.edTxtUser_Email);
+        editTextUserNameEmail = (EditText) findViewById(R.id.edTxtUser_Ficha);
         editTextPassWord = (EditText) findViewById(R.id.edTxtInPassword);
 
         textViewForgotPassword = (TextView) findViewById(R.id.txtForgotPass);

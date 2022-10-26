@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
-        android:id="@+id/edTxtUserName"
+        android:id="@+id/edTxtUserFicha"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -55,9 +55,9 @@
         android:ems="10"
         android:hint="e-mail"
         android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="@+id/edTxtUserName"
-        app:layout_constraintStart_toStartOf="@+id/edTxtUserName"
-        app:layout_constraintTop_toBottomOf="@+id/edTxtUserName" />
+        app:layout_constraintEnd_toEndOf="@+id/edTxtUserFicha"
+        app:layout_constraintStart_toStartOf="@+id/edTxtUserFicha"
+        app:layout_constraintTop_toBottomOf="@+id/edTxtUserFicha" />
 
     <EditText
         android:id="@+id/edTxtConfirmEmail"

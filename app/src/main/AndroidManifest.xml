@@ -16,7 +16,7 @@
         android:largeHeap="true"
         android:hardwareAccelerated="false">
         <activity
-            android:name=".SplashActivity"
+            android:name=".DashboardActivity"
             android:exported="false" />
         <activity
             android:name=".AboutActivity"
@@ -40,7 +40,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".DashboardActivity"
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,5 +49,5 @@
             </intent-filter>
         </activity>
     </application>
-//SplashActivity
+
 </manifest>
