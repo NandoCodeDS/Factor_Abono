@@ -6,15 +6,20 @@
     android:layout_height="match_parent"
     android:scrollbarSize="24sp"
     tools:context=".DashboardActivity">
-    
+
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:id="@+id/relativeLayout"
+        android:layout_width="363dp"
+        android:layout_height="216dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="520dp">
 
         <com.github.clans.fab.FloatingActionMenu
             android:id="@+id/menuflotante"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="267dp"
             app:menu_backgroundColor="@color/backgroungMenu"
             app:menu_fab_label="Redes Sociales">
 
@@ -40,6 +45,24 @@
 
         </com.github.clans.fab.FloatingActionMenu>
     </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="215dp"
+        android:layout_height="141dp"
+        android:text="Calibraciones"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="216dp"
+        android:layout_height="146dp"
+        android:text="Suertes"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="331dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,4 +4,30 @@
     <string name="menu_drawer_close">Drawer Close</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btnGPS">UBICACIÓN</string>
+
+    <string name="txtVSalida1">Salida 1</string>
+    <string name="txtVSalida2">Salida 2</string>
+    <string name="txtVSalida3">Salida 3</string>
+    <string name="txtVSalida4">Salida 4</string>
+
+    <string name="edTxt11">1-1</string>
+    <string name="edTxt12">1-2</string>
+    <string name="edTxt13">1-3</string>
+
+    <string name="edTxt21">2-1</string>
+    <string name="edTxt22">2-2</string>
+    <string name="edTxt23">2-3</string>
+
+    <string name="edTxt31">3-1</string>
+    <string name="edTxt32">3-2</string>
+    <string name="edTxt33">3-3</string>
+
+    <string name="edTxt41">4-1</string>
+    <string name="edTxt42">4-2</string>
+    <string name="edTxt43">4-3</string>
+
+    <string name="btnCalcular">CALCULAR</string>
+    <string name="btnGuardar">GUARDAR</string>
+    <string name="txtVFactor">FACTOR...</string>
 </resources>

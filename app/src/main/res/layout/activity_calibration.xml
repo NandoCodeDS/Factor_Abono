@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_2"
+    tools:context=".Calibration">
+
+    <EditText
+        android:id="@+id/edTxt21"
+        android:layout_width="83dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/edTxt21"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/edTxt11"
+        app:layout_constraintTop_toBottomOf="@+id/txtVSalida2" />
+
+    <EditText
+        android:id="@+id/edTxt13"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/edTxt13"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/edTxt12"
+        app:layout_constraintTop_toBottomOf="@+id/edTxt12" />
+
+    <EditText
+        android:id="@+id/edTxt33"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/edTxt33"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/edTxt23"
+        app:layout_constraintTop_toBottomOf="@+id/edTxt32" />
+
+    <EditText
+        android:id="@+id/edTxt31"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/edTxt31"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/edTxt21"
+        app:layout_constraintTop_toBottomOf="@+id/txtVSalida3" />
+
+    <Spinner
+        android:id="@+id/spProducto"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.672"
+        app:layout_constraintStart_toEndOf="@+id/spEstado"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edTxt43"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/edTxt43"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/edTxt33"
+        app:layout_constraintTop_toBottomOf="@+id/edTxt42" />
+
+    <EditText
+        android:id="@+id/edTxt41"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/edTxt41"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtVSalida4"
+        app:layout_constraintStart_toEndOf="@+id/edTxt31"
+        app:layout_constraintTop_toBottomOf="@+id/txtVSalida4" />
+
+    <EditText
+        android:id="@+id/edTxt23"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/edTxt23"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/edTxt13"
+        app:layout_constraintTop_toBottomOf="@+id/edTxt22" />
+
+    <Spinner
+        android:id="@+id/spEstado"
+        android:layout_width="169dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="92dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtVSalida3"
+        android:layout_width="83dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtVSalida3"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/txtVSalida2"
+        app:layout_constraintTop_toBottomOf="@+id/spAbonadora" />
+
+    <TextView
+        android:id="@+id/txtVFactor"
+        android:layout_width="147dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Calculando..."
+        android:text="@string/txtVFactor"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="@+id/edTxt43"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toEndOf="@+id/btnCalcular"
+        app:layout_constraintTop_toBottomOf="@+id/edTxt33" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/btnGuardar"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="@+id/btnCalcular"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalcular"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/btnCalcular"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/edTxt13"
+        app:layout_constraintTop_toBottomOf="@+id/edTxt13" />
+
+    <Spinner
+        android:id="@+id/spAbonadora"
+        android:layout_width="172dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spEstado" />
+
+    <EditText
+        android:id="@+id/edTxt12"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/edTxt12"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/edTxt11"
+        app:layout_constraintTop_toBottomOf="@+id/edTxt11" />
+
+    <EditText
+        android:id="@+id/edTxt42"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/edTxt42"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/edTxt41"
+        app:layout_constraintStart_toEndOf="@+id/edTxt32"
+        app:layout_constraintTop_toBottomOf="@+id/edTxt41" />
+
+    <TextView
+        android:id="@+id/txtVSalida2"
+        android:layout_width="83dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtVSalida2"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/txtVSalida1"
+        app:layout_constraintTop_toBottomOf="@+id/spAbonadora" />
+
+    <EditText
+        android:id="@+id/edTxt22"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/edTxt22"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/edTxt12"
+        app:layout_constraintTop_toBottomOf="@+id/edTxt21" />
+
+    <EditText
+        android:id="@+id/edTxt11"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/edTxt11"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/txtVSalida1"
+        app:layout_constraintTop_toBottomOf="@+id/txtVSalida1" />
+
+    <TextView
+        android:id="@+id/txtVSalida4"
+        android:layout_width="83dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtVSalida4"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toEndOf="@+id/txtVSalida3"
+        app:layout_constraintTop_toBottomOf="@+id/spAbonadora" />
+
+    <TextView
+        android:id="@+id/txtVSalida1"
+        android:layout_width="83dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="Salida 1"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spAbonadora" />
+
+    <EditText
+        android:id="@+id/edTxt32"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/edTxt32"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/edTxt22"
+        app:layout_constraintTop_toBottomOf="@+id/edTxt31" />
+
+    <Button
+        android:id="@+id/btnGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btnGPS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/spAbonadora"
+        app:layout_constraintTop_toBottomOf="@+id/spProducto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
