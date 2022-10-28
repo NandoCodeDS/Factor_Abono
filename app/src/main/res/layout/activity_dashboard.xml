@@ -7,19 +7,45 @@
     android:scrollbarSize="24sp"
     tools:context=".DashboardActivity">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="215dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="128dp"
+        android:text="Calibraciones"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="216dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="52dp"
+        android:text="Suertes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:ignore="MissingConstraints" />
+
     <RelativeLayout
         android:id="@+id/relativeLayout"
-        android:layout_width="363dp"
-        android:layout_height="216dp"
+        android:layout_width="411dp"
+        android:layout_height="733dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="520dp">
+        tools:ignore="MissingConstraints">
 
         <com.github.clans.fab.FloatingActionMenu
             android:id="@+id/menuflotante"
             android:layout_width="match_parent"
-            android:layout_height="267dp"
+
+            android:layout_height="match_parent"
             app:menu_backgroundColor="@color/backgroungMenu"
             app:menu_fab_label="Redes Sociales">
 
@@ -45,24 +71,6 @@
 
         </com.github.clans.fab.FloatingActionMenu>
     </RelativeLayout>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="215dp"
-        android:layout_height="141dp"
-        android:text="Calibraciones"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="153dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="216dp"
-        android:layout_height="146dp"
-        android:text="Suertes"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="331dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
