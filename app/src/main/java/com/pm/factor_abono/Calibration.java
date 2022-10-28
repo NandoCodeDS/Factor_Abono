@@ -29,8 +29,8 @@ public class Calibration extends AppCompatActivity {
         ArrayAdapter<String> prodcutos = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, opProducto);
         spProducto.setAdapter(prodcutos);
         ArrayAdapter<String> estados = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, opEstado);
-        spProducto.setAdapter(estados);
+        spEstado.setAdapter(estados);
         ArrayAdapter<String> abonadoras = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, opAbonadora);
-        spProducto.setAdapter(abonadoras);
+        spAbonadora.setAdapter(abonadoras);
     }
 }
