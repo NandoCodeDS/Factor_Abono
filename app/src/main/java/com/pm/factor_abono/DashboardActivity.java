@@ -48,4 +48,9 @@ public class DashboardActivity extends DrawerBaseActivity {
         intent.setData(Uri.parse(url));
         startActivity(intent);
     }
+
+    public void RegistraCalibraciones(View view) {
+        Intent intent = new Intent(DashboardActivity.this,Calibration.class);
+        startActivity(intent);
+    }
 }
