@@ -1,0 +1,5 @@
+Saludos,
+
+Este link permite tener una navegación simulada del mockup de la aplicación Calibración de abonadoras APP.
+
+https://marvelapp.com/prototype/j0d2a24
